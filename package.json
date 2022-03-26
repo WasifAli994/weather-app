@@ -1,0 +1,23 @@
+{
+  "name": "wheather-app",
+  "version": "1.0.0",
+  "description": "Wheather application which fetches data from wheatherapi",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WasifAli994/wheather-app.git"
+  },
+  "author": "Wasif Ali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WasifAli994/wheather-app/issues"
+  },
+  "homepage": "https://github.com/WasifAli994/wheather-app#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
