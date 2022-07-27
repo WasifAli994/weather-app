@@ -1,18 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;500;600;700;1,200&display=swap');
 
 *{
-  box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body{
-  font-family: 'Poppins', sans-serif;
+  font-family: "Nunito", sans-serif;
+}
+
+.input{
+  text-align: center;
+  margin: 100px 0;
+}
+
+input[type="text"]{
+  height: 50px;
+  width: 600px;
+  background: #e7e7e7;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+button{
+  height: 50px;
+  width: 100px;
+  background: #e7e7e7;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.display{
+  text-align: center;
+
 }
 
 a{
-  text-decoration: none;
-  
+  text-decoration: none; 
 }
 
 footer{

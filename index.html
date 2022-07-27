@@ -6,28 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="app.js" defer></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="normalize.css">
-    <title>Whether Application</title>
+    <title>Weather Application</title>
 </head>
 <body>
-    <h1>Find out What's the wheather in your region</h1>
-    <section>
-        <div>
-            <form action="submit">
-                <label>Enter your </label>
-            </form>
-        </div>
-    </section>
-    <section>
-        <div>
-            <h3>Link to the source code: <a href="https://github.com/WasifAli994/wheather-app" target="_blank">Github URL</a> </h3>
-        </div>
-    </section>
+    <div class="input">
+        <input type="text" class="inputValue" placeholder="Enter a city">
+        <button type="submit" value="Submit" class="button">Submit</button>
+    </div>
+    <div class="display">
+        <h1 class="name"></h1>
+        <p class="desc"></p>
+        <p class="temp"></p>
+    </div>
 </body>
 <footer>
     <div class="footer-content">
         <!--add all information -->
-        <p>copyright &copy;2022 <a href="#" target="_blank">Whether app</a></p>
+        <p>copyright &copy;2022 <a href="https://github.com/WasifAli994/weather-app" target="_blank">Whether app</a></p>
     </div>
 </footer>
 </html>
