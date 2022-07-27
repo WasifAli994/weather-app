@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/WasifAli994/wheather-app#readme",
   "dependencies": {
+    "dotenv": "^16.0.1",
     "express": "^4.17.3",
     "request": "^2.88.2"
   }

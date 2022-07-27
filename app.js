@@ -13,5 +13,5 @@ button.addEventListener('click', function(){
     temp.innerHTML = data.current.temp_c;
     desc.innerHTML = data.current.condition.text;
 })
-.catch(err => alert("wrong city name!"))
+.catch(err => alert("The provided city name is incorrect!"))
 })
