@@ -7,6 +7,7 @@
 
 body{
   font-family: "Nunito", sans-serif;
+  background-color: #1A1A1D;
 }
 
 .input{
@@ -33,6 +34,7 @@ button{
   font-size: 20px;
   border: none;
   border-radius: 5px;
+  margin-left: 10px;
 }
 
 .display{
@@ -56,7 +58,7 @@ footer{
     right: 0;
     height: auto;
     color: #fff;
-    background: #000;
+    background: #4E4E50;
     width: 100vw;
     padding: 20px;
     padding-bottom: 25px;
@@ -69,4 +71,26 @@ footer{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+
+h1 { color: white; font-family: 'Raleway',sans-serif; font-size: 50px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; }
+
+
+h2 { color: white; font-family: 'Raleway',sans-serif; font-size: 40px; font-weight: 800; line-height: 36px; margin: 0 0 24px; text-align: center; }
+
+
+p { color: white; font-family: 'Raleway',sans-serif; font-size: 35px; font-weight: 500; line-height: 32px; margin: 0 0 24px; }
+
+
+a { color: white; text-decoration: none; }
+
+
+a:hover { color: #6F2232; text-decoration: underline; }
+
+.img-logo{
+  height: 200px;
+  width: 200px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-bottom: 5px;
 }

@@ -10,7 +10,7 @@ button.addEventListener('click', function(){
 .then(resp => resp.json())
 .then(data => {
     var name = document.querySelector('.name').innerHTML = data.location.name;
-    temp.innerHTML = data.current.temp_c;
+    temp.innerHTML = data.current.temp_c + '°C';
     desc.innerHTML = data.current.condition.text;
 })
 .catch(err => alert("The provided city name is incorrect!"))
