@@ -13,5 +13,5 @@ button.addEventListener('click', function(){
     temp.innerHTML = data.current.temp_c + '°C';
     desc.innerHTML = data.current.condition.text;
 })
-.catch(err => alert("The provided city name is incorrect!"))
+.catch(err => console.log("The provided city name is incorrect!"))
 })

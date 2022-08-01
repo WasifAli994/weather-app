@@ -37,6 +37,12 @@ button{
   margin-left: 10px;
 }
 
+.button:hover {
+  background-color:#4E4E50;
+  transition: 0.5s;
+  color: white;
+}
+
 .display{
   text-align: center;
 
